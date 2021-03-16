@@ -19,16 +19,14 @@ LM = zeros(1,512*512);
 index = 0;
 for i = 2:A-2
     for j = 2:B-2
-        if mod(i+j,2) == 0
-            index = index+1;
-            if coverImage(i,j) == 0
-                coverImage(i,j) = 1;
+        index = index+1;
+        if coverImage(i,j) == 0
+            coverImage(i,j) = 1;
+            LM(index) = 1;
+        else
+            if coverImage(i,j) == 255
+                coverImage(i,j) = 254;
                 LM(index) = 1;
-            else
-                if coverImage(i,j) == 255
-                    coverImage(i,j) = 254;
-                    LM(index) = 1;
-                end
             end
         end
     end
