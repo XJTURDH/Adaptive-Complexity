@@ -6,4 +6,4 @@ Z. Pan, X. Gao, E. Gao and G. Fan, "Adaptive Complexity for Pixel-Value-Ordering
 
 Test images are from the USC-SIPI image database: http://sipi.usc.edu/database.
 
-Find out more our works about reversible data hiding: https://www.researchgate.net/profile/Zhibin-Pan-2.
+Find out more works about reversible data hiding: https://www.researchgate.net/profile/Zhibin-Pan-2.
