@@ -22,7 +22,7 @@ Please cite our [paper](https://ieeexplore.ieee.org/abstract/document/9098041) i
 }
 ```
 
-Our other work on pvo complexity: *Mutual Complexity* [(code)](https://github.com/XJTURDH/Mutual-Complexity):
+Our other work on pvo complexity: *Mutual Complexity* [[paper]](https://www.sciencedirect.com/science/article/pii/S0165168422003723) [[code]](https://github.com/XJTURDH/Mutual-Complexity):
 ```
 @article{gao2023local,
   title={Local feature-based mutual complexity for pixel-value-ordering reversible data hiding},
